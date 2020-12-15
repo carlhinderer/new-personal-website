@@ -10,3 +10,7 @@ def home_view():
 @app.route("/blog")
 def blog_view():
     return render_template('blog.html')
+
+@app.route("/contact")
+def contact_view():
+    return render_template('contact.html')
