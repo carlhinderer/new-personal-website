@@ -3,13 +3,29 @@
 {% block title %}Carl Hinderer's Homepage{% endblock %}
 
 {% block header %}
-    {% super() %}
+    {{ super() }}
     {% include 'bgview.html' %}
 {% endblock %}
 
-{% block body %}
-    <main>
-        <h3>Hello world</h3>
+{% block main %}
+    <main class="text-center py-5">
+    
+      <div class="container container-margin">
+        <div class="row">
+          <div class="col-md-12">
+    
+            <p align="justify">quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui mollit
+              anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit,  tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+          </div>
+        </div>
+      </div>
+    
     </main>
-    {{ super() }}
 {% endblock %}

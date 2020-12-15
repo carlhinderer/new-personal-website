@@ -19,13 +19,13 @@
   </head>
 
   <body>
-    {% block header %}
     <header>
+    {% block header %}
         {% include 'navbar.html' %}
-    </header>
     {% endblock %}
+    </header>
 
-    {% block body %}
+    {% block main %}
     {% endblock %}
 
     <!-- Optional JavaScript -->

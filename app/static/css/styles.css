@@ -9,3 +9,15 @@ header,
 .view {
   height: 100%;
 }
+
+.white {
+    color: white;
+}
+
+.headline-margin {
+    padding-top: 100px;
+}
+
+.container-margin {
+    padding-top: 100px;
+}
