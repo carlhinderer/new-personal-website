@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Carl Hinderer's Homepage{% endblock %}
+
+{% block header %}
+    {% super() %}
+    {% include 'bgview.html' %}
+{% endblock %}
+
+{% block body %}
+    <main>
+        <h3>Hello world</h3>
+    </main>
+    {{ super() }}
+{% endblock %}
