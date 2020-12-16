@@ -5,9 +5,12 @@
 
 html,
 body,
-header,
 .view {
   height: 100%;
+}
+
+.tall-header {
+    height: 100%;
 }
 
 .white {
@@ -20,4 +23,15 @@ header,
 
 .container-margin {
     padding-top: 80px;
+}
+
+.bolder-text {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.icon-link {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }

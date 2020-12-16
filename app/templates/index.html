@@ -3,8 +3,10 @@
 {% block title %}Carl Hinderer's Homepage{% endblock %}
 
 {% block header %}
-    {{ super() }}
-    {% include 'bgview.html' %}
+    <header class="tall-header">
+        {% include 'navbar.html' %}
+        {% include 'bgview.html' %}
+    </header>
 {% endblock %}
 
 {% block main %}
@@ -14,10 +16,10 @@
         <div class="row">
           <div class="col-md-12">
 
-            <p align="justify">Hey!  I'm Carl Hinderer, a software engineer with a background in
-              building web applications and other traditional types of software.  I'll be 
-              writing here about my experiences learning modern databases, data science, data
-              engineering, and distributed systems.</p>
+            <p align="justify" class="bolder-text">Hey!  I'm Carl Hinderer, a software engineer 
+              based in Fort Collins, CO.  I have a background in building web applications and other 
+              traditional types of software.  I'll be writing here about my experiences learning modern 
+              databases, data science, data engineering, and distributed systems.</p>
     
           </div>
         </div>

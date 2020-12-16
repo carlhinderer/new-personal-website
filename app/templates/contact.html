@@ -2,14 +2,25 @@
 
 {% block title %}Contact Information{% endblock %}
 
+{% block header %}
+    <header>
+        {% include 'navbar.html' %}
+    </header>
+{% endblock %}
+
 {% block main %}
-    <main class="text-center py-5">
+    <main class="py-5">
     
       <div class="container container-margin">
         <div class="row">
           <div class="col-md-12">
 
-            <p>Contact Information</p>
+            <p class="bolder-text">Contact Me</p>
+            <hr />
+            <p><a href="mailto:carl.hinderer4@gmail.com">Email</a></p>
+            <p><a href="http://www.linkedin.com/in/carlhinderer/">LinkedIn</a></p>
+            <p><a href="http://www.github.com/carlhinderer">GitHub</a></p>
+            <p><a href="http://www.twitter.com/carlhinderer">Twitter</a></p>
     
           </div>
         </div>
